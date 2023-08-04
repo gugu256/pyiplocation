@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyiplocation/__init__.py
+pyiplocation.egg-info/PKG-INFO
+pyiplocation.egg-info/SOURCES.txt
+pyiplocation.egg-info/dependency_links.txt
+pyiplocation.egg-info/requires.txt
+pyiplocation.egg-info/top_level.txt
