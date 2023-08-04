@@ -31,7 +31,7 @@ def geolocate(ip: str):
         "currency": {
             "name": page[242].replace("<td>", "").replace("</td>", ""),
             "code": page[247][-7:].replace("<td>", "").replace("</td>", "").replace("</a>", ""),
-            "name": page[252].replace("<td>", "").replace("</td>", "")},
+            "symbol": page[252].replace("<td>", "").replace("</td>", "")},
         "timezone": {
             "name": page[256].replace("<td>", "").replace("</td>", ""),
             "offset": float(page[260].replace("<td>", "").replace("</td>", "")),
