@@ -40,5 +40,3 @@ def geolocate(ip: str):
             "is_DST": True if page[272].replace("<td>", "").replace("</td>", "") == "true" else False,
             "DST_savings": float(page[276].replace("<td>", "").replace("</td>", ""))}
     }
-
-print(geolocate("79.95.87.19"))
