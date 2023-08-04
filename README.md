@@ -24,7 +24,7 @@ will return a dictionary containing : <br>
 - The Zip Code
 - The City's Latitude
 - The City's Longitude
-- The Country's Currency
+- The Country's Currency (name, code, symbol)
 - The Timezone (name, offset, current time etc..)
 - The Calling Code
 
