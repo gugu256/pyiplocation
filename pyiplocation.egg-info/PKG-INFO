@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pyiplocation
+Version: 0.2
+Summary: A package for geolocating IPs
+Home-page: https://github.com/gugu256/gugu256
+Author: gugu256
+Author-email: gugu256@mail.com
+License: MIT
+Keywords: ip location
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyiplocation
+
+A simple python package to geolocate IPs without the need for a paid/limited API.<br>
+
+## Usage
+
+This code snippet :
+```py
+from pyiplocation import geolocate
+
+geolocate("42.34.78.123")
+```
+will return a dictionary containing : <br>
+- The IP
+- The Hostname
+- The Continent Code
+- The Continent Name
+- The Country Codes
+- The Country Name
+- The Country Capital
+- The State/Province
+- The District/County
+- The City
+- The Zip Code
+- The City's Latitude
+- The City's Longitude
+- The Geoname ID
+- A Boolean indicating whether or not the IP is in the EU
+- The Calling Code
+- The Country TLD
+- The Country Languages
+- The ISP
+- The Connection Type
+- The Organization
+- The AS Number
+- The Country's Currency (name, code, symbol)
+- The Timezone (name, offset, current time etc..)
+
+### And more!
