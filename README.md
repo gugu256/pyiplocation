@@ -24,8 +24,16 @@ will return a dictionary containing : <br>
 - The Zip Code
 - The City's Latitude
 - The City's Longitude
+- The Geoname ID
+- A Boolean indicating whether or not the IP is in the EU
+- The Calling Code
+- The Country TLD
+- The Country Languages
+- The ISP
+- The Connection Type
+- The Organization
+- The AS Number
 - The Country's Currency (name, code, symbol)
 - The Timezone (name, offset, current time etc..)
-- The Calling Code
 
 ### And more!
