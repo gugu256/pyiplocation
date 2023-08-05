@@ -1,11 +1,12 @@
 Metadata-Version: 2.1
 Name: pyiplocation
-Version: 0.2
+Version: 0.3
 Summary: A package for geolocating IPs
 Home-page: https://github.com/gugu256/gugu256
 Author: gugu256
 Author-email: gugu256@mail.com
 License: MIT
+Project-URL: Homepage, https://github.com/gugu256/pyiplocation
 Keywords: ip location
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Developers
