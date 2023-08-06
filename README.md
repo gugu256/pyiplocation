@@ -1,5 +1,7 @@
 # pyiplocation
 
+[![Downloads](https://static.pepy.tech/badge/pyiplocation)](https://pepy.tech/project/pyiplocation)
+
 A simple python package to geolocate IPs without the need for a paid/limited API.<br>
 
 ## Usage

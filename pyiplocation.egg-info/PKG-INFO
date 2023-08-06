@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyiplocation
-Version: 0.3
+Version: 1.0
 Summary: A package for geolocating IPs
 Home-page: https://github.com/gugu256/gugu256
 Author: gugu256
@@ -18,6 +18,8 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 # pyiplocation
+
+[![Downloads](https://static.pepy.tech/badge/pyiplocation)](https://pepy.tech/project/pyiplocation)
 
 A simple python package to geolocate IPs without the need for a paid/limited API.<br>
 

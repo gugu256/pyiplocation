@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='pyiplocation',
-    version='0.3',
+    version='1.0',
     license='MIT',
     description= "A package for geolocating IPs",
     long_description= open("README.md").read(),
